@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with Claude Code (https://claude.com/claude-code) -->
 <csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
     xmlns:ogc="http://www.opengis.net/ogc"
     service="CSW" version="2.0.2"

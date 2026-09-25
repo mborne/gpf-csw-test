@@ -18,6 +18,7 @@ or, with uv:
 
 Set CSW_URL to point at another CSW endpoint if needed.
 """
+# Generated with Claude Code (https://claude.com/claude-code)
 
 import re
 import unittest

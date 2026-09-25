@@ -4,6 +4,7 @@ Stdlib only (urllib + string templating) on purpose: these tests exercise a
 live, external service (the Geoplateforme CSW at data.geopf.fr) and must stay
 runnable without installing anything.
 """
+# Generated with Claude Code (https://claude.com/claude-code)
 
 from __future__ import annotations
 

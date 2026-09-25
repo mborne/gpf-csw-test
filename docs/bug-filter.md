@@ -1,5 +1,7 @@
 # Bug CSW : recherche plein texte (`AnyText` + wildcard) cassée
 
+<!-- Generated with Claude Code (https://claude.com/claude-code) -->
+
 - **Service concerné** : `https://data.geopf.fr/csw` (CSW 2.0.2, Géoplateforme / IGN)
 - **Issue de suivi** : [mborne/gpf-catalogue#7](https://github.com/mborne/gpf-catalogue/issues/7)
 - **Tests automatisés** : [`tests/test_csw_anytext_search.py`](../tests/test_csw_anytext_search.py)

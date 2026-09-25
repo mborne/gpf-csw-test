@@ -1,5 +1,7 @@
 # gpf-csw-test
 
+<!-- Generated with Claude Code (https://claude.com/claude-code) -->
+
 Tests fonctionnels reproduisant un bug de recherche plein texte (`AnyText` +
 wildcard `%`) sur le service CSW de la Géoplateforme
 (`https://data.geopf.fr/csw`).
