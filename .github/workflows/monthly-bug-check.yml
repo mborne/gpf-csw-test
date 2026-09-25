@@ -1,0 +1,27 @@
+# Generated with Claude Code (https://claude.com/claude-code)
+#
+# Runs the functional test suite against the live CSW service once a month,
+# so we notice when IGN fixes the bug (CswFullTextSearchTests goes green)
+# without having to check manually. See docs/bug-filter.md.
+name: Monthly CSW bug check
+
+on:
+  schedule:
+    # 1st of every month, 06:00 UTC
+    - cron: "0 6 1 * *"
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run tests
+        run: uv run pytest -v
